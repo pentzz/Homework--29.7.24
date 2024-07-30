@@ -22,7 +22,7 @@ def say_bool(a: bool = True) -> None:
     This function gets bool parameter from the user and prints "yes" if True and "no" if False.
 
     """
-    print(f"yes" if a == True else "no")
+    print(f"yes" if a else "no")
 
 
 def print_zugi(a: list[int] = []) -> None:
